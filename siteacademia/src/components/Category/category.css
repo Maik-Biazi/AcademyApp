@@ -1,0 +1,11 @@
+.container-category{
+    margin: 2.5rem;
+}
+.container-category h2{
+    color: #FFFFFF;
+}
+.line{
+   width: 150px;
+   height: 5px;
+   background-color:#FF6C2C ;
+}

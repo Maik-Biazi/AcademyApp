@@ -1,3 +1,3 @@
-#B5F45F //verde claro
-#8DF35F // verde
-#141414
+#FFFFFF // Branco
+#FF6C2C // laranja
+#24272E //background escuro
