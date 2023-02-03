@@ -11,7 +11,7 @@ export const Carrosel: React.FC = () => {
     <Container fluid>
       <Swiper
         slidesPerView={4}
-        spaceBetween={50}
+        spaceBetween={60}
         slidesPerGroup={2}
         loop={true}
         loopFillGroupWithBlank={true}
@@ -34,24 +34,76 @@ export const Carrosel: React.FC = () => {
                 laudantium, repellendus nobis ducimus magnam ex nam at aliquam
                 harum iusto quas odio fuga.
               </p>
+             
+            </div>
+            <div className="carrosel-button">
+            <button>Saiba Mais</button>
             </div>
           </div>
+          
         </SwiperSlide>
-        <SwiperSlide className="bgImagem2">
-          <h3>Isso é um teste</h3>
+        <SwiperSlide className="bgImagem1">
+          <div className="carrosel-title">
+            <div>
+              <h3>Circuito funcional</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae, eaque! Accusamus beatae, eos tenetur ab consequatur
+                laudantium, repellendus nobis ducimus magnam ex nam at aliquam
+                harum iusto quas odio fuga.
+              </p>
+             
+            </div>
+            <div className="carrosel-button">
+            <button>Saiba Mais</button>
+            </div>
+          </div>
+          
         </SwiperSlide>
-        <SwiperSlide className="bgImagem3">
-          <h3>Isso é um teste</h3>
+        <SwiperSlide className="bgImagem1">
+          <div className="carrosel-title">
+            <div>
+              <h3>Circuito funcional</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae, eaque! Accusamus beatae, eos tenetur ab consequatur
+                laudantium, repellendus nobis ducimus magnam ex nam at aliquam
+                harum iusto quas odio fuga.
+              </p>
+             
+            </div>
+            <div className="carrosel-button">
+            <button>Saiba Mais</button>
+            </div>
+          </div>
+          
         </SwiperSlide>
-        <SwiperSlide>
-          <h3>Isso é um teste</h3>
+        <SwiperSlide className="bgImagem1">
+          <div className="carrosel-title">
+            <div>
+              <h3>Circuito funcional</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae, eaque! Accusamus beatae, eos tenetur ab consequatur
+                laudantium, repellendus nobis ducimus magnam ex nam at aliquam
+                harum iusto quas odio fuga.
+              </p>
+             
+            </div>
+            <div className="carrosel-button">
+            <button>Saiba Mais</button>
+            </div>
+          </div>
+          
         </SwiperSlide>
-        <SwiperSlide>
-          <h3>Isso é um teste</h3>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h3>Isso é um teste</h3>
-        </SwiperSlide>
+        
+       
       </Swiper>
     </Container>
   );
