@@ -12,6 +12,7 @@ import ScrollReveal from "scrollreveal";
 import { Category } from "./components/Category/Category";
 import { Carrosel } from "./components/Carrosel/Carrosel";
 import { About } from "./components/About/About";
+import { Trainers } from "./components/trainers/Trainers";
 
 function App() {
   useEffect(() => {
@@ -61,8 +62,17 @@ function App() {
           </Col>
           <Col sm={10} xxl={6} className="hero-text">
             <div>
-              <h2> Torne-se mais <span className="text-chamativo" style={{ color: "#FF6C2C" }}>forte</span> do
-                que suas <span className="text-chamativo" style={{ color: "#FF6C2C" }}>desculpas.</span></h2>
+              <h2>
+                {" "}
+                Torne-se mais{" "}
+                <span className="text-chamativo" style={{ color: "#FF6C2C" }}>
+                  forte
+                </span>{" "}
+                do que suas{" "}
+                <span className="text-chamativo" style={{ color: "#FF6C2C" }}>
+                  desculpas.
+                </span>
+              </h2>
             </div>
             <div>
               <p>
@@ -77,21 +87,23 @@ function App() {
                 <a className="">Quero Fazer uma aula gratis</a>
               </div>
               <div>
-                <a className="hero-button-link" href="">Quero ser Convencido</a>
+                <a className="hero-button-link" href="">
+                  Quero ser Convencido
+                </a>
               </div>
             </div>
-
-
           </Col>
         </Row>
       </Container>
 
       <Container fluid className="container-card">
-        <div >
+        <div>
           <Row className="card-body">
             <Col>
               <div className="card-item">
-                <div className="card-text"><span>3500+</span></div>
+                <div className="card-text">
+                  <span>3500+</span>
+                </div>
                 <div className="card-text">
                   <p> Total de membros</p>
                 </div>
@@ -99,7 +111,9 @@ function App() {
             </Col>
             <Col>
               <div className="card-item">
-                <div className="card-text"><span>150</span></div>
+                <div className="card-text">
+                  <span>150</span>
+                </div>
                 <div className="card-text">
                   <p>Melhores Treinadores</p>
                 </div>
@@ -107,7 +121,9 @@ function App() {
             </Col>
             <Col>
               <div className="card-item">
-                <div className="card-text"><span>25</span></div>
+                <div className="card-text">
+                  <span>25</span>
+                </div>
                 <div className="card-text">
                   <p> Treinos personalizados</p>
                 </div>
@@ -115,21 +131,23 @@ function App() {
             </Col>
             <Col>
               <div className="card-item">
-                <div className="card-text"><span>450+</span></div>
                 <div className="card-text">
-                <p> Instrumentos</p>
+                  <span>450+</span>
+                </div>
+                <div className="card-text">
+                  <p> Instrumentos</p>
                 </div>
               </div>
             </Col>
-
           </Row>
         </div>
       </Container>
-      <Category id="treinos" title="Nossos Treinamento"/>
-      <Carrosel/>
-      <Category id="treinos" title="Sobre Nos"/>
-      <About/>
-
+      <Category id="treinos" title="Nossos Treinamento" />
+      <Carrosel />
+      <Category id="treinos" title="Sobre Nos" />
+      <About />
+      <Category id="treinos" title="Nossos Melhores Treinadores" />
+      <Trainers />
     </>
   );
 }

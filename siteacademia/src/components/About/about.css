@@ -1,0 +1,20 @@
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.about-text h3 {
+    display: flex;
+    justify-content: center;
+   color: #ffffff ;
+   text-shadow: 1px 1px 1px #828283, 0 0 1em #FF6C2C, 0 0 0.1em #FF6C2C;
+  
+   font: 2em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  
+   
+    
+}
+.about-paragrafy span{
+    color: #828283;
+}
