@@ -34,13 +34,11 @@ export const Carrosel: React.FC = () => {
                 laudantium, repellendus nobis ducimus magnam ex nam at aliquam
                 harum iusto quas odio fuga.
               </p>
-             
             </div>
             <div className="carrosel-button">
-            <button>Saiba Mais</button>
+              <button>Saiba Mais</button>
             </div>
           </div>
-          
         </SwiperSlide>
         <SwiperSlide className="bgImagem1">
           <div className="carrosel-title">
@@ -54,13 +52,11 @@ export const Carrosel: React.FC = () => {
                 laudantium, repellendus nobis ducimus magnam ex nam at aliquam
                 harum iusto quas odio fuga.
               </p>
-             
             </div>
             <div className="carrosel-button">
-            <button>Saiba Mais</button>
+              <button>Saiba Mais</button>
             </div>
           </div>
-          
         </SwiperSlide>
         <SwiperSlide className="bgImagem1">
           <div className="carrosel-title">
@@ -74,13 +70,11 @@ export const Carrosel: React.FC = () => {
                 laudantium, repellendus nobis ducimus magnam ex nam at aliquam
                 harum iusto quas odio fuga.
               </p>
-             
             </div>
             <div className="carrosel-button">
-            <button>Saiba Mais</button>
+              <button>Saiba Mais</button>
             </div>
           </div>
-          
         </SwiperSlide>
         <SwiperSlide className="bgImagem1">
           <div className="carrosel-title">
@@ -94,16 +88,12 @@ export const Carrosel: React.FC = () => {
                 laudantium, repellendus nobis ducimus magnam ex nam at aliquam
                 harum iusto quas odio fuga.
               </p>
-             
             </div>
             <div className="carrosel-button">
-            <button>Saiba Mais</button>
+              <button>Saiba Mais</button>
             </div>
           </div>
-          
         </SwiperSlide>
-        
-       
       </Swiper>
     </Container>
   );

@@ -11,6 +11,7 @@ import ScrollReveal from "scrollreveal";
 
 import { Category } from "./components/Category/Category";
 import { Carrosel } from "./components/Carrosel/Carrosel";
+import { About } from "./components/About/About";
 
 function App() {
   useEffect(() => {
@@ -126,7 +127,8 @@ function App() {
       </Container>
       <Category id="treinos" title="Nossos Treinamento"/>
       <Carrosel/>
-     
+      <Category id="treinos" title="Sobre Nos"/>
+      <About/>
 
     </>
   );
